@@ -1,0 +1,36 @@
+aa/*  
+Done in colloboration with MAkhdoom
+
+
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+        package com.mycompany.xtravisionmovierentalsystem;
+
+/**
+ *
+ * @author johnWick
+ */
+public class CardDetail {
+    private String cardNo, expirydate, title, cvv;
+    public CardDetail(String cardNo,String expirydate,String title,String cvv){
+        this.cardNo = cardNo;
+        this.expirydate = expirydate;
+        this.title = title;
+        this.cvv = cvv;
+    }
+
+    public String getCardNo(){
+        return cardNo;
+    }
+    public String getExpirydate(){
+        return expirydate;
+    }
+    public String getTitle(){
+        return title;
+    }
+    public String getCvv(){
+        return cvv;
+    }
+}
